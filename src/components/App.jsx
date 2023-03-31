@@ -1,6 +1,6 @@
 import Phonebook from "./Phonebook/Phonebook";
 
-export const App = ({children}) => {
+export const App = () => {
   return (
     <div
       style={{
@@ -12,6 +12,7 @@ export const App = ({children}) => {
         color: '#010101'
       }}
     >
+      
       <Phonebook/>
     </div>
   );
